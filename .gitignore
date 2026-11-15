@@ -1,0 +1,17 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+keystore.properties
+keys/
+*.jks
+*.keystore
+.kotlin/
+release/
+*.apk
+*.aab
+*.pptx
+First Review - preview.png
+Screenshot *.png

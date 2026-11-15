@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lite edition: no notification access and no alerts. Without these sensitive permissions,
+     Android lets people install the APK straight from a link. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"
+        tools:node="remove" />
+
+    <application>
+        <service
+            android:name=".service.MessageListener"
+            tools:node="remove" />
+    </application>
+</manifest>

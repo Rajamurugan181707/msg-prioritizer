@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A chat bubble holding three bars, longest first (a ranked list), with a gold "!" badge.
+     Everything sits inside the 66dp safe zone (21 to 87) so no launcher mask clips it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bubble with a tail at bottom left -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M40,33 L66,33 A10,10 0 0 1 76,43 L76,61 A10,10 0 0 1 66,71 L48,71 L36,81 L39,71 A10,10 0 0 1 30,61 L30,43 A10,10 0 0 1 40,33 Z" />
+    <!-- Priority bars -->
+    <path android:pathData="M39,45 L67,45" android:strokeColor="#FF1E40AF" android:strokeWidth="6" android:strokeLineCap="round" />
+    <path android:pathData="M39,53.5 L60,53.5" android:strokeColor="#FF1E40AF" android:strokeWidth="5" android:strokeLineCap="round" />
+    <path android:pathData="M39,61.5 L52,61.5" android:strokeColor="#FF1E40AF" android:strokeWidth="4" android:strokeLineCap="round" />
+    <!-- Gold "!" badge, ringed in navy so it separates from the bubble -->
+    <path
+        android:fillColor="#FFFBBF24"
+        android:strokeColor="#FF0B1437"
+        android:strokeWidth="2.5"
+        android:pathData="M76,22 A10,10 0 1 1 75.99,22 Z" />
+    <path android:pathData="M76,27 L76,33.5" android:strokeColor="#FF0B1437" android:strokeWidth="2.6" android:strokeLineCap="round" />
+    <path android:fillColor="#FF0B1437" android:pathData="M76,36 A1.6,1.6 0 1 1 75.99,36 Z" />
+</vector>
